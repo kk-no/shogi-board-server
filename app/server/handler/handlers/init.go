@@ -5,10 +5,10 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/murosan/shogi-board-server/app/domain/config"
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
-	"github.com/murosan/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/domain/config"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
 )
 
 // InitHandler is a handler that initializes all engine.

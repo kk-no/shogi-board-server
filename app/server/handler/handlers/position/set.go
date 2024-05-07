@@ -3,13 +3,13 @@ package position
 import (
 	"net/http"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/engine"
-	"github.com/murosan/shogi-board-server/app/domain/entity/shogi"
-	"github.com/murosan/shogi-board-server/app/domain/framework"
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
-	"github.com/murosan/shogi-board-server/app/server/handler"
-	"github.com/murosan/shogi-board-server/app/server/handler/handlers"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/engine"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/shogi"
+	"github.com/kk-no/shogi-board-server/app/domain/framework"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/server/handler/handlers"
 )
 
 // SetHandler is a handler for setting the new position.

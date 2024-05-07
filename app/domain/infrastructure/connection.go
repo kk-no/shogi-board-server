@@ -7,7 +7,7 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/murosan/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/logger"
 )
 
 // Connector is a communicator with shogi engine service and os cmd.

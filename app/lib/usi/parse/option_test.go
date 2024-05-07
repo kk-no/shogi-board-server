@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/engine"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/engine"
 )
 
 var (

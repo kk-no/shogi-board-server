@@ -1,11 +1,11 @@
 package module
 
 import (
-	"github.com/murosan/shogi-board-server/app/domain/config"
-	"github.com/murosan/shogi-board-server/app/domain/infrastructure"
-	"github.com/murosan/shogi-board-server/app/domain/infrastructure/store"
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/domain/config"
+	"github.com/kk-no/shogi-board-server/app/domain/infrastructure"
+	"github.com/kk-no/shogi-board-server/app/domain/infrastructure/store"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
 )
 
 var (

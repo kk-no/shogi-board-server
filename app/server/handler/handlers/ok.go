@@ -3,7 +3,7 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/murosan/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
 )
 
 // OKHandler is a handler that just says OK.

@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/murosan/shogi-board-server/app/domain/entity/engine"
-	"github.com/murosan/shogi-board-server/app/domain/framework"
-	"github.com/murosan/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/engine"
+	"github.com/kk-no/shogi-board-server/app/domain/framework"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
 )
 
 // QueryKeys is a set of uri query keys.

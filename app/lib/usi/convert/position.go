@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/shogi"
-	"github.com/murosan/shogi-board-server/app/domain/entity/usi"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/shogi"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/usi"
 )
 
 // Position converts shogi.Position to usi-position command bytes.

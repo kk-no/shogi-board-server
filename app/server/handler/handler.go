@@ -7,8 +7,8 @@ import (
 	"github.com/labstack/echo/v4"
 	"go.uber.org/zap"
 
-	"github.com/murosan/shogi-board-server/app/domain/framework"
-	"github.com/murosan/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/domain/framework"
+	"github.com/kk-no/shogi-board-server/app/logger"
 )
 
 // Handler is provider of basic handler func

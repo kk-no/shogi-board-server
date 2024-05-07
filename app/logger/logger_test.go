@@ -11,7 +11,7 @@ import (
 
 	"github.com/murosan/goutils/testutils"
 
-	"github.com/murosan/shogi-board-server/app/domain/config"
+	"github.com/kk-no/shogi-board-server/app/domain/config"
 )
 
 func TestNew(t *testing.T) {

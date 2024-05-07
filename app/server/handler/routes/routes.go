@@ -3,15 +3,15 @@ package routes
 import (
 	"github.com/labstack/echo/v4"
 
-	"github.com/murosan/shogi-board-server/app/domain/config"
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
-	"github.com/murosan/shogi-board-server/app/server/handler"
-	"github.com/murosan/shogi-board-server/app/server/handler/handlers"
-	"github.com/murosan/shogi-board-server/app/server/handler/handlers/options"
-	"github.com/murosan/shogi-board-server/app/server/handler/handlers/options/update"
-	"github.com/murosan/shogi-board-server/app/server/handler/handlers/position"
-	"github.com/murosan/shogi-board-server/app/server/handler/handlers/result"
+	"github.com/kk-no/shogi-board-server/app/domain/config"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/server/handler/handlers"
+	"github.com/kk-no/shogi-board-server/app/server/handler/handlers/options"
+	"github.com/kk-no/shogi-board-server/app/server/handler/handlers/options/update"
+	"github.com/kk-no/shogi-board-server/app/server/handler/handlers/position"
+	"github.com/kk-no/shogi-board-server/app/server/handler/handlers/result"
 )
 
 // Initialize setups server routes.

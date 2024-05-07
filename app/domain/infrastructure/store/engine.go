@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/engine"
-	"github.com/murosan/shogi-board-server/app/domain/infrastructure"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/engine"
+	"github.com/kk-no/shogi-board-server/app/domain/infrastructure"
 )
 
 // EngineStore is a in memory store for shogi engines.

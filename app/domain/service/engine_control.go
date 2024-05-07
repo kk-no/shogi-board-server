@@ -7,15 +7,15 @@ import (
 
 	"go.uber.org/zap"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/engine"
-	"github.com/murosan/shogi-board-server/app/domain/entity/shogi"
-	"github.com/murosan/shogi-board-server/app/domain/entity/usi"
-	"github.com/murosan/shogi-board-server/app/domain/framework"
-	"github.com/murosan/shogi-board-server/app/domain/infrastructure"
-	"github.com/murosan/shogi-board-server/app/domain/infrastructure/store"
-	"github.com/murosan/shogi-board-server/app/lib/usi/convert"
-	"github.com/murosan/shogi-board-server/app/lib/usi/parse"
-	"github.com/murosan/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/engine"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/shogi"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/usi"
+	"github.com/kk-no/shogi-board-server/app/domain/framework"
+	"github.com/kk-no/shogi-board-server/app/domain/infrastructure"
+	"github.com/kk-no/shogi-board-server/app/domain/infrastructure/store"
+	"github.com/kk-no/shogi-board-server/app/lib/usi/convert"
+	"github.com/kk-no/shogi-board-server/app/lib/usi/parse"
+	"github.com/kk-no/shogi-board-server/app/logger"
 )
 
 const (

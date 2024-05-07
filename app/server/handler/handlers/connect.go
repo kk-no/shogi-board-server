@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
-	"github.com/murosan/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
 )
 
 // ConnectHandler is a handler for connecting (initializing) to the engine.

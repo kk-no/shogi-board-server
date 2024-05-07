@@ -3,8 +3,8 @@ package store
 import (
 	"sync"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/engine"
-	"github.com/murosan/shogi-board-server/app/domain/entity/shogi"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/engine"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/shogi"
 )
 
 // GameStore is a in memory store that holds game state.

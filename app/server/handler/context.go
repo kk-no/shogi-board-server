@@ -9,7 +9,7 @@ import (
 
 	"github.com/labstack/echo/v4"
 
-	"github.com/murosan/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/logger"
 )
 
 // Context is a server contexts. Just wraps echo.Context.

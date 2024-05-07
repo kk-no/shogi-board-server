@@ -6,15 +6,13 @@ package main
 
 import (
 	"flag"
-	"os"
-	"path"
 	"path/filepath"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 
-	"github.com/murosan/shogi-board-server/app/module"
-	"github.com/murosan/shogi-board-server/app/server/handler/routes"
+	"github.com/kk-no/shogi-board-server/app/module"
+	"github.com/kk-no/shogi-board-server/app/server/handler/routes"
 )
 
 var (
@@ -31,7 +29,7 @@ func main() {
 	flag.Parse()
 
 	if *appConfigPath == "" {
-		acp := filepath.Join(path.Dir(os.Args[0]), "config", "app.config.yml")
+		acp := filepath.Join("config", "app.config.yml")
 		appConfigPath = &acp
 	}
 

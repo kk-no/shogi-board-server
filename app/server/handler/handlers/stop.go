@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
-	"github.com/murosan/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
 )
 
 // StopHandler is a handler for stopping the engine think.
@@ -13,6 +13,7 @@ import (
 //   - NotConnected, then returns NOT_FOUND or BAD_REQUEST
 //   - Connected or StandBy, then returns OK (do nothing)
 //   - Thinking, then stops thinking and returns OK
+//
 // See domain/entity/engine/state.go about engine state.
 type StopHandler struct {
 	es     service.EngineService

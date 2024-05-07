@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/engine"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/engine"
 )
 
 // Button generates new Button and returns it from the given string.

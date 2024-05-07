@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/murosan/shogi-board-server/app/domain/entity/shogi"
-	"github.com/murosan/shogi-board-server/app/domain/entity/usi"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/shogi"
+	"github.com/kk-no/shogi-board-server/app/domain/entity/usi"
 )
 
 func TestInfo(t *testing.T) {

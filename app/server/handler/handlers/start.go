@@ -3,9 +3,9 @@ package handlers
 import (
 	"net/http"
 
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
-	"github.com/murosan/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
 )
 
 // StartHandler is a handler for starting the engine think.
@@ -13,6 +13,7 @@ import (
 //   - NotConnected, then returns NOT_FOUND or BAD_REQUEST
 //   - Connected or StandBy, then starts thinking and returns OK
 //   - Thinking, then returns OK (do nothing)
+//
 // See domain/entity/engine/state.go about engine state.
 type StartHandler struct {
 	es     service.EngineService

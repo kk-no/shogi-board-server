@@ -3,10 +3,10 @@ package result
 import (
 	"net/http"
 
-	"github.com/murosan/shogi-board-server/app/domain/service"
-	"github.com/murosan/shogi-board-server/app/logger"
-	"github.com/murosan/shogi-board-server/app/server/handler"
-	"github.com/murosan/shogi-board-server/app/server/handler/handlers"
+	"github.com/kk-no/shogi-board-server/app/domain/service"
+	"github.com/kk-no/shogi-board-server/app/logger"
+	"github.com/kk-no/shogi-board-server/app/server/handler"
+	"github.com/kk-no/shogi-board-server/app/server/handler/handlers"
 )
 
 // GetHandler is a handler for getting thought result of the engine.
